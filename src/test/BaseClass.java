@@ -19,8 +19,8 @@ public class BaseClass {
 	public void setUp() {
 		DesiredCapabilities capabilities = new DesiredCapabilities();
 		capabilities.setCapability("browserName", "Chrome");
-		capabilities.setCapability("version", "92.0");
-		capabilities.setCapability("platform", "Windows 10");
+		capabilities.setCapability("version", "103.0");
+		capabilities.setCapability("platform", "Windows 11");
 		capabilities.setCapability("resolution", "1024x768");
 		capabilities.setCapability("build", "Http Response Status Codes Using Selenium WebDriver");
 		capabilities.setCapability("name", "Http Response Status Codes");
